@@ -1,0 +1,19 @@
+{
+	"name": "update-changelogs",
+	"main": "./lib/update-changelogs",
+	"version": "0.1.0",
+	"description": "Opens changelog after package update",
+	"keywords": [
+		"changelog",
+		"package"
+	],
+	"repository": "https://github.com/jtojnar/update-changelogs",
+	"license": "MIT",
+	"engines": {
+		"atom": ">=1.0.0 <2.0.0"
+	},
+	"dependencies": {
+		"fs-plus": "^2.4",
+		"node-version-compare": "^1.0.1"
+	}
+}
